@@ -1,5 +1,5 @@
 # Build base image
-FROM ubuntu:jammy as base
+FROM ubuntu:22.04 as base
 
 LABEL org.opencontainers.image.authors="evan.sultanik@trailofbits.com"
 
