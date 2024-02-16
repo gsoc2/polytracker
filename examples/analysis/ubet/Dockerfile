@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 # We just need the PolyTracker python analysis code to run eval_nitro.py, and not the PolyTracker llvm environment.
